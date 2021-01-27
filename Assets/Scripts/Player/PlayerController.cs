@@ -11,6 +11,10 @@ public class PlayerController : MonoBehaviour
         {
             Touch t = Input.GetTouch(0);
 
+            Vector3 aux = Camera.main.ScreenToWorldPoint(t.position);
+            aux.z = 0;
+            transform.position = aux;
+            /*
             if (t.phase == TouchPhase.Moved)
             {
                 if(t.deltaPosition.y > 5)
@@ -22,7 +26,7 @@ public class PlayerController : MonoBehaviour
                 {
                     transform.position += Vector3.up * 1;
                 }
-            }
+            } */
         }
     }
 }
