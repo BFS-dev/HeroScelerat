@@ -156,7 +156,6 @@ AnimatorController:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: PlayerController
-<<<<<<< HEAD
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: posX
@@ -192,8 +191,6 @@ AnimatorController:
     m_Controller: {fileID: 9100000}
 --- !u!1102 &5112589215886851849
 AnimatorState:
-=======
->>>>>>> parent of 965ee8c... Revert "Animações implementadas"
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
