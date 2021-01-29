@@ -1,43 +1,7 @@
 fileFormatVersion: 2
 guid: 93d6d9e457324d9458d1efcd63660cfe
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 1596530056477942065
-    second: Female_06-4_0
-  - first:
-      213: -4984440728546541567
-    second: Female_06-4_1
-  - first:
-      213: 3852673062118389572
-    second: Female_06-4_2
-  - first:
-      213: 1017411672220715991
-    second: Female_06-4_3
-  - first:
-      213: -810528067983338631
-    second: Female_06-4_4
-  - first:
-      213: 4372758463226805953
-    second: Female_06-4_5
-  - first:
-      213: -8307322782064876949
-    second: Female_06-4_6
-  - first:
-      213: 7569179318144462825
-    second: Female_06-4_7
-  - first:
-      213: -708636584801358483
-    second: Female_06-4_8
-  - first:
-      213: -4129263465324389954
-    second: Female_06-4_9
-  - first:
-      213: -2913450124152601794
-    second: Female_06-4_10
-  - first:
-      213: -4432650878544279233
-    second: Female_06-4_11
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -67,7 +31,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -76,12 +40,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -107,273 +71,9 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Female_06-4_0
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 96
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1312a99a0a3082610800000000000000
-      internalID: 1596530056477942065
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Female_06-4_1
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 96
-        width: 29
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1008efae095b3dab0800000000000000
-      internalID: -4984440728546541567
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Female_06-4_2
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 96
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4477847dcb1777530800000000000000
-      internalID: 3852673062118389572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Female_06-4_3
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 64
-        width: 27
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7db4d0186829e1e00800000000000000
-      internalID: 1017411672220715991
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Female_06-4_4
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 64
-        width: 27
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9739e5b340d60c4f0800000000000000
-      internalID: -810528067983338631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Female_06-4_5
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 64
-        width: 27
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ce773987a82fac30800000000000000
-      internalID: 4372758463226805953
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Female_06-4_6
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 32
-        width: 27
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b62638c91f576bc80800000000000000
-      internalID: -8307322782064876949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Female_06-4_7
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 32
-        width: 27
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9efeb339c702b0960800000000000000
-      internalID: 7569179318144462825
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Female_06-4_8
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 32
-        width: 27
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d6da118d7ca6a26f0800000000000000
-      internalID: -708636584801358483
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Female_06-4_9
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 0
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb9575d81c8e1b6c0800000000000000
-      internalID: -4129263465324389954
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Female_06-4_10
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 0
-        width: 29
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3301175c885197d0800000000000000
-      internalID: -2913450124152601794
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Female_06-4_11
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 0
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f398b0bd28f0c72c0800000000000000
-      internalID: -4432650878544279233
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
