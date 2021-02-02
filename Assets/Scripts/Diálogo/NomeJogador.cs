@@ -6,15 +6,11 @@ using UnityEngine.UI;
 public class NomeJogador : MonoBehaviour
 {
     [SerializeField]
-    private Text iField;
-    private string nome;
-    void Start() 
-    {
-        nome = iField.text;
-        print(nome);
-    } 
+    private InputField iField;
+    private string nome;    
 
     public string GetNome() {
+        nome = iField.text;
         return nome;
     }
 }

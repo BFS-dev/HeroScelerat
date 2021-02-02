@@ -14,6 +14,9 @@ public class Dialogo
     [SerializeField]
     private string[] nome;
 
+    [SerializeField]
+    private NomeJogador jogador;
+
     public TextoDialogo[] GetFrases()
     {
         return frases;
@@ -21,6 +24,9 @@ public class Dialogo
 
     public string GetNomeNPC(int x)
     {
+        if(nome[x] == "input"){
+            nome[x] = jogador.GetNome();
+        }
         return nome[x];
     }
 

@@ -19,8 +19,6 @@ public class GerenciadorDialogo : MonoBehaviour
     private int cont = 0;
     private Dialogo dialogoAtual;
 
-    private NomeJogador jogador;
-
     public void Inicializa(Dialogo dialogo)
     {
         cont = 0;
@@ -50,14 +48,11 @@ public class GerenciadorDialogo : MonoBehaviour
             return;
         }
         string name = dialogoAtual.GetNomeNPC(cont);
-        if (name == "input") {
-            nome.text = jogador.GetNome();
-        } else {
-            nome.text = name;
-        }
+        nome.text = name;
+
         // frase.text = dialogoAtual.GetFrases()[cont].GetFrase();
         string str = dialogoAtual.GetFrases()[cont].GetFrase();
-        //frase.text = str;
+
         StartCoroutine("mostrar_text", str);
         //mostrar_text(str);
         
