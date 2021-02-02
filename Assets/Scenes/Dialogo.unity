@@ -239,11 +239,12 @@ MonoBehaviour:
     frases:
     - frase: "Ol\xE1, seja bem-vinde, eu sou Ratriz. Qual seu nome?"
       buttonContinuar: Responder
-    - frase: "Oii, meu nome \xE9 "
+    - frase: "Oii, \xE9 um prazer conhecer voc\xEA."
       buttonContinuar: Encerrar
     nome:
     - Ratriz
     - input
+    jogador: {fileID: 656948368}
 --- !u!114 &204488250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -388,7 +389,6 @@ RectTransform:
   - {fileID: 384208153}
   - {fileID: 681726453}
   - {fileID: 204488253}
-  - {fileID: 656948364}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -774,19 +774,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 656948363}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1423354847}
   - {fileID: 1338706327}
-  m_Father: {fileID: 285244068}
+  m_Father: {fileID: 681726453}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -106.2, y: -228}
-  m_SizeDelta: {x: 355.58582, y: 30}
+  m_AnchoredPosition: {x: -108.12, y: -81.20929}
+  m_SizeDelta: {x: 359.0349, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &656948365
 MonoBehaviour:
@@ -900,7 +900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eb07798b12ebc64181b31dae6ebcd54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  iField: {fileID: 1338706328}
+  iField: {fileID: 656948365}
 --- !u!1 &681726452
 GameObject:
   m_ObjectHideFlags: 0
@@ -933,6 +933,7 @@ RectTransform:
   - {fileID: 512853916}
   - {fileID: 1967573937}
   - {fileID: 923210257}
+  - {fileID: 656948364}
   m_Father: {fileID: 285244068}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1629,8 +1630,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -329, y: -5.600006}
-  m_SizeDelta: {x: 205.17943, y: 30}
+  m_AnchoredPosition: {x: -327.65, y: -5.600006}
+  m_SizeDelta: {x: 207.88667, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1967573938
 MonoBehaviour:
