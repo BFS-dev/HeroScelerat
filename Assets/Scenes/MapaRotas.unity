@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15d54afc9995a9148897c264d93d95b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gerenciador: {fileID: 913342735}
+  gerenciador: {fileID: 0}
   dialogo:
     frases: []
     nome: []
@@ -269,57 +269,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 301470139}
   m_CullTransparentMesh: 0
---- !u!1 &913342734
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 913342736}
-  - component: {fileID: 913342735}
-  m_Layer: 0
-  m_Name: GerenciadorDialogo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &913342735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 913342734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7186d54797475c14287e00649876b3b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nome: {fileID: 0}
-  frase: {fileID: 0}
-  buttonContinuar: {fileID: 0}
-  caixaDialogo: {fileID: 0}
-  EscolhaFeminino: {fileID: 0}
-  EscolhaMasculino: {fileID: 0}
-  "Bot\xE3oProximo": {fileID: 0}
-  ProximaScene: {fileID: 0}
---- !u!4 &913342736
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 913342734}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.7430323, y: -1.6864022, z: -37.995533}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &968387324
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,7 +333,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1250950798
 GameObject:
@@ -693,7 +642,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 543.4646
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -717,7 +666,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2088223955}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 962, y: 541, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
