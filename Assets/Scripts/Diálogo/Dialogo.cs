@@ -24,7 +24,7 @@ public class Dialogo
 
     public string GetNomeNPC(int x)
     {
-        if(nome[x] == "input"){
+        if(nome[x] == "jogador"){
             nome[x] = jogador.GetNome();
         }
         return nome[x];

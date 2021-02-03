@@ -32,7 +32,13 @@ public class GerenciadorDialogo : MonoBehaviour
         for(int letter = 0; letter < str.Length; letter++)
         {
             frase.text = frase.text + str[letter];
-            yield return new WaitForSeconds(0.1f);
+            if (str[letter] == 'é') {
+                if (letter == str.Length - 1) {
+                    string strAux = nome.text;
+                    frase.text = frase.text + ' ' + strAux + '.';
+                }
+            }
+            yield return new WaitForSeconds(0.08f);
         }
     } 
 

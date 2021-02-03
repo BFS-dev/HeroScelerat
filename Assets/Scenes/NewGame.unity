@@ -844,7 +844,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &681726453
 RectTransform:
   m_ObjectHideFlags: 0
@@ -967,7 +967,7 @@ MonoBehaviour:
     nome:
     - Ratriz
     - input
-    jogador: {fileID: 0}
+    jogador: {fileID: 656948368}
 --- !u!114 &735642633
 MonoBehaviour:
   m_ObjectHideFlags: 0

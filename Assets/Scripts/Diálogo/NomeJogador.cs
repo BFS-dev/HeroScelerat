@@ -9,8 +9,12 @@ public class NomeJogador : MonoBehaviour
     private InputField iField;
     private string nome;    
 
+    [SerializeField]
+    public GameObject Remover;
+
     public string GetNome() {
         nome = iField.text;
+        Remover.gameObject.SetActive(false);
         return nome;
     }
 }
