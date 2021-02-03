@@ -11,11 +11,14 @@ public class InicializadorDialogo : MonoBehaviour
     [SerializeField]
     private Dialogo dialogo;
 
+    public void TrocarScene() {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("NewGame");
+    }
+
     public void Inicializa()
     {
         if (gerenciador == null)
             return;
         gerenciador.Inicializa(dialogo);
-        
     }
 }
