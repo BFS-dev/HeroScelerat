@@ -16,7 +16,20 @@ public class GerenciadorDialogo : MonoBehaviour
     [SerializeField]
     private GameObject caixaDialogo;
 
+    [SerializeField]
+    private GameObject EscolhaFeminino;
+
+    [SerializeField]
+    private GameObject EscolhaMasculino;
+
+    [SerializeField]
+    private GameObject BotãoProximo;
+
+    [SerializeField]
+    private GameObject ProximaScene;
+
     private int cont = 0;
+    private int ativo = 0;
     private Dialogo dialogoAtual;
 
     public void Inicializa(Dialogo dialogo)
@@ -38,12 +51,14 @@ public class GerenciadorDialogo : MonoBehaviour
                     frase.text = frase.text + ' ' + strAux + '.';
                 }
             }
-            yield return new WaitForSeconds(0.08f);
+            yield return new WaitForSeconds(0.05f);
         }
     } 
 
     public void ProximaFrase()
     {
+        EscolhaFeminino.gameObject.SetActive(false);
+        EscolhaMasculino.gameObject.SetActive(false);
         if (dialogoAtual == null)
             return;
         if (cont == dialogoAtual.GetFrases().Length)
@@ -64,6 +79,15 @@ public class GerenciadorDialogo : MonoBehaviour
         
         buttonContinuar.text = dialogoAtual.GetFrases()[cont].GetBotaoContinuar();
         caixaDialogo.gameObject.SetActive(true);
+        if (ativo == 1) {
+            ProximaScene.gameObject.SetActive(true);
+        }
+        if (cont == 3) {
+            EscolhaFeminino.gameObject.SetActive(true);
+            EscolhaMasculino.gameObject.SetActive(true);
+            BotãoProximo.gameObject.SetActive(false);
+            ativo = 1;
+        }
         cont++;
     }
 }
