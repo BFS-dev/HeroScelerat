@@ -1,6 +1,6 @@
 # HeroScelerat
 <p align="center">
-  <img alt="Logo do projeto" src="./Assets/Sprites/Logo/Logo.png.png" />
+  <img alt="Logo do projeto" src="./Assets/Sprites/Logo/Logo.png" />
 </p>
 
 ## O que é HeroScelerat?
@@ -25,7 +25,7 @@ cê vai se tornar um médico com o objetivo de ajudar aldeões, completar missõ
 
 ## :alien: Quem somos nós?
 <p align="center">
-  <img alt="Quem somos nós: Bruna Torres, Eirene Fireman e Samuel Lucas" src="./Assets/Sprites/Quem somos/Quem_Somos.png.png" />
+  <img alt="Quem somos nós: Bruna Torres, Eirene Fireman e Samuel Lucas" src="./Assets/Sprites/Quem somos/Quem_Somos.png" />
 </p>
 
 
