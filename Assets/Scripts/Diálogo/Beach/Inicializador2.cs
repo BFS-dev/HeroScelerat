@@ -9,7 +9,7 @@ public class Inicializador2 : MonoBehaviour
     private Gerenciador2 gerenciador;
 
     [SerializeField]
-    private Dialogo dialogo;
+    private Dialogo2 dialogo;
 
     public void NewGame() {
         UnityEngine.SceneManagement.SceneManager.LoadScene("NewGame");

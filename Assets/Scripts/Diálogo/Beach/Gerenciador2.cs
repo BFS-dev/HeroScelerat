@@ -37,10 +37,10 @@ public class Gerenciador2 : MonoBehaviour
 
     public TextMeshProUGUI ativo;
 
-    private Dialogo dialogoAtual;
+    private Dialogo2 dialogoAtual;
     private int cont = 0;
 
-    public void Inicializa(Dialogo dialogo)
+    public void Inicializa(Dialogo2 dialogo)
     {
         cont = 0;
         dialogoAtual = dialogo;
