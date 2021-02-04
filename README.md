@@ -1,6 +1,6 @@
 # HeroScelerat
 <p align="center">
-  <img alt="Logo do projeto" src="./Assets/Sprites/Logo/Logo.png" />
+  <img width="310" height="546" alt="Logo do projeto" src="./Assets/Sprites/Logo/Logo.png" />
 </p>
 
 ## O que é HeroScelerat?
