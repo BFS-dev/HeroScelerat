@@ -79,6 +79,8 @@ public class Gerenciador2 : MonoBehaviour
             caixaDialogo.gameObject.SetActive(false);
             dialogoAtual = null;
             cont = 0;
+            joysticker.gameObject.SetActive(true);
+            botaoCorrer.gameObject.SetActive(true);
             return;
         }
         string name = dialogoAtual.GetNomeNPC(cont);

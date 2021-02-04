@@ -20,6 +20,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private GameObject stop;
 
+    [SerializeField]
+    private GameObject talk;
+
     void Start() {
         isWalking = false;
         isRunning = false;
@@ -57,5 +60,13 @@ public class PlayerController : MonoBehaviour
         isRunning = false;
         stop.gameObject.SetActive(false);
         correr.gameObject.SetActive(true);
+    }
+
+    private void OnTriggerEnter2D (Collider2D Collider) {
+        talk.gameObject.SetActive(true);
+    }
+
+    private void OnTriggerExit2D (Collider2D Collider) {
+        talk.gameObject.SetActive(false);
     }
 }
