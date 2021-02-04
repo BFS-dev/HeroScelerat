@@ -763,7 +763,7 @@ MonoBehaviour:
   gerenciador: {fileID: 1589499022}
   dialogo:
     frases:
-    - frase: "Obrigado pelas informa\xE7\xF5es. Agora vamos personalizar seu personagem."
+    - frase: "Obrigado pelas informa\xE7\xF5es. Agora vamos customizar seu personagem."
       buttonContinuar: "Vamos l\xE1"
     nome:
     - Ratriz
@@ -2271,7 +2271,7 @@ MonoBehaviour:
   gerenciador: {fileID: 1589499022}
   dialogo:
     frases:
-    - frase: "Obrigado pelas informa\xE7\xF5es. Agora vamos personalizar seu personagem."
+    - frase: "Obrigado pelas informa\xE7\xF5es. Agora vamos customizar seu personagem."
       buttonContinuar: "Vamos l\xE1"
     nome:
     - Ratriz

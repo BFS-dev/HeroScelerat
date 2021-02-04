@@ -7,7 +7,7 @@ using UnityEngine;
 public class TextoDialogo
 {
     [SerializeField]
-    [TextArea(1,4)]
+    [TextArea(1,6)]
     private string frase;
 
     [SerializeField]
