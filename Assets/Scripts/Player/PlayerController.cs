@@ -1,19 +1,31 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerController : MonoBehaviour
 {
-    // Update is called once per frame
     public Animator animator;
     public Joystick joystick;
     float inputX = 0;
     float inputY = 0;
     public float speed = 2.5f;
     bool isWalking = false;
+    public float runSpeed = 2.0f;
+    bool isRunning = false;
+
+    [SerializeField]
+    private GameObject correr;
+
+    [SerializeField]
+    private GameObject stop;
+
+    [SerializeField]
+    private GameObject talk;
 
     void Start() {
         isWalking = false;
+        isRunning = false;
     }
 
     void Update()
@@ -24,32 +36,37 @@ public class PlayerController : MonoBehaviour
 
         if (isWalking) {
             var move = new Vector3(inputX, inputY, 0).normalized;
-            transform.position += move * speed * Time.deltaTime;
+            if (isRunning) {
+                transform.position += move * speed * Time.deltaTime * runSpeed;
+            } else {
+                transform.position += move * speed * Time.deltaTime;
+            }
             animator.SetFloat("posX", inputX);
             animator.SetFloat("posY", inputY);
         }
 
         animator.SetBool("isWalking", isWalking);
-        /* if(Input.touchCount > 0)
-        {
-            Touch t = Input.GetTouch(0);
+    }
 
-            Vector3 aux = Camera.main.ScreenToWorldPoint(t.position);
-            aux.z = 0;
-            transform.position = aux;
-            /*
-            if (t.phase == TouchPhase.Moved)
-            {
-                if(t.deltaPosition.y > 5)
-                {
-                    transform.position += Vector3.up * 1;
-                }
+    public void run()
+    {
+        isRunning = true;
+        stop.gameObject.SetActive(true);
+        correr.gameObject.SetActive(false);
+    }
 
-                if (t.deltaPosition.y < -5)
-                {
-                    transform.position += Vector3.up * 1;
-                }
-            } 
-        }*/
+    public void stop_run()
+    {
+        isRunning = false;
+        stop.gameObject.SetActive(false);
+        correr.gameObject.SetActive(true);
+    }
+
+    private void OnTriggerEnter2D (Collider2D Collider) {
+        talk.gameObject.SetActive(true);
+    }
+
+    private void OnTriggerExit2D (Collider2D Collider) {
+        talk.gameObject.SetActive(false);
     }
 }

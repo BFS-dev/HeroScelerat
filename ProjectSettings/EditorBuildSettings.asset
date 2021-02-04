@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/TelaInicial.unity
+    guid: 38cfa5ea4e01ef5408c89fb40eec36e3
+  - enabled: 1
+    path: Assets/Scenes/NewGame.unity
+    guid: a2a7b9d96582a0d4986942cb085cb869
+  - enabled: 1
+    path: "Assets/Scenes/Personaliza\xE7\xE3o.unity"
+    guid: fd151a0a9f1746842b8220e41e408dc6
+  - enabled: 1
+    path: Assets/Scenes/MapaRotas.unity
+    guid: 237fb4f7bec8f314ebf3a8d7bbbecf58
+  - enabled: 1
+    path: Assets/Scenes/Beach.unity
+    guid: f0d5b52b2c5cfba48bb3f2ebe88dca6d
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: Assets/Scenes/test.unity
+    guid: 3629bb1fb3f3d524f8760fd3aa658475
   m_configObjects: {}
