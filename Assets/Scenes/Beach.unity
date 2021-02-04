@@ -131346,7 +131346,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.05374219, y: 0.16031946}
   m_AnchorMax: {x: 0.7255625, y: 0.42531946}
-  m_AnchoredPosition: {x: 95.60004, y: 5.3999023}
+  m_AnchoredPosition: {x: 95.60004, y: 5.3998413}
   m_SizeDelta: {x: 241.38177, y: 130.13676}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1633777614
@@ -131437,7 +131437,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1642279727}
   - component: {fileID: 1642279726}
-  - component: {fileID: 1642279725}
   - component: {fileID: 1642279724}
   - component: {fileID: 1642279728}
   - component: {fileID: 1642279729}
@@ -131474,27 +131473,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.97367775, y: 1.0466166}
   m_EdgeRadius: 0
---- !u!50 &1642279725
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1642279723}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
 --- !u!212 &1642279726
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -131572,8 +131550,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6984e3cdc976bcf4e9cfcbde123e758c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 1512708411}
-  clarice: {fileID: 1642279723}
   BotaoConversar: {fileID: 1459923666}
 --- !u!61 &1642279729
 BoxCollider2D:

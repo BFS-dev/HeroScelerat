@@ -7,6 +7,10 @@ public class NomeJogador : MonoBehaviour
 {
     [SerializeField]
     private InputField iField;
+
+    [SerializeField]
+    private GameObject ImageNomeJogador;
+
     private string nome;    
 
     [SerializeField]
@@ -15,6 +19,7 @@ public class NomeJogador : MonoBehaviour
     public string GetNome() {
         nome = iField.text;
         Remover.gameObject.SetActive(false);
+        ImageNomeJogador.gameObject.SetActive(false);
         return nome;
     }
 }

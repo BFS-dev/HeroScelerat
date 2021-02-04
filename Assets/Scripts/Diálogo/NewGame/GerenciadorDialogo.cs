@@ -28,6 +28,9 @@ public class GerenciadorDialogo : MonoBehaviour
     [SerializeField]
     private GameObject ProximaScene;
 
+    [SerializeField]
+    private GameObject Ratriz;
+
     private int cont = 0;
     private int ativo = 0;
     private Dialogo dialogoAtual;
@@ -69,6 +72,11 @@ public class GerenciadorDialogo : MonoBehaviour
             return;
         }
         string name = dialogoAtual.GetNomeNPC(cont);
+        if(name != "Ratriz") {
+            Ratriz.gameObject.SetActive(false);
+        } else {
+            Ratriz.gameObject.SetActive(true);
+        }
         nome.text = name;
 
         // frase.text = dialogoAtual.GetFrases()[cont].GetFrase();
