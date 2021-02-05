@@ -3,8 +3,8 @@
     "m_SelectedPackage": {
         "deviceId": "4d4185a974d5",
         "name": "com.BFS.HeroScelerat",
-        "processId": 4441,
-        "exited": true
+        "processId": 7038,
+        "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
@@ -13,6 +13,12 @@
             "name": "com.BFS.HeroScelerat",
             "processId": 4441,
             "exited": true
+        },
+        {
+            "deviceId": "4d4185a974d5",
+            "name": "com.BFS.HeroScelerat",
+            "processId": 7038,
+            "exited": false
         }
     ],
     "m_Tags": {
